@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
-import { Menu, Home, Search, Phone, Mail } from "lucide-react";
+import { Menu, Home, Phone, Mail } from "lucide-react";
 
 export default function Header() {
   return (

@@ -3,7 +3,7 @@ import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
-import { Search, Home, Shield, Users, Award, MapPin, Bed, Bath, Square } from 'lucide-react';
+import { Search, Home, Shield, Users, MapPin, Bed, Bath, Square } from 'lucide-react';
 import { properties } from '@/data/properties';
 
 export default function HomePage() {

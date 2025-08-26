@@ -2,7 +2,6 @@
 
 import { useState, useMemo } from 'react';
 import { Button } from '@/components/ui/button';
-import { Badge } from '@/components/ui/badge';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
 import { Filter, Grid, List, Search } from 'lucide-react';
 import PropertyCard from '@/components/properties/PropertyCard';
@@ -22,7 +21,6 @@ export default function PropertiesPage() {
   });
 
   const [viewMode, setViewMode] = useState<'grid' | 'list'>('grid');
-  const [showFilters, setShowFilters] = useState(false);
 
   const filteredProperties = useMemo(() => {
     return properties.filter((property) => {
